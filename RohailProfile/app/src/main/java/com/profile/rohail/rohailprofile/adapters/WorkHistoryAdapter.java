@@ -6,15 +6,12 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.AnimationUtils;
-import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.profile.rohail.rohailprofile.R;
 import com.profile.rohail.rohailprofile.interfaces.IOnItemClickCustomListner;
-import com.profile.rohail.rohailprofile.models.ProfileModel;
-import com.profile.rohail.rohailprofile.models.WorkHistoryModel;
+import com.profile.rohail.rohailprofile.models.WorkEducationModel;
 
 import java.util.ArrayList;
 
@@ -25,10 +22,10 @@ import java.util.ArrayList;
 public class WorkHistoryAdapter extends RecyclerView.Adapter<WorkHistoryAdapter.MyViewHolder> {
 
     private Context context;
-    private ArrayList<WorkHistoryModel> workHistoryList;
+    private ArrayList<WorkEducationModel> workHistoryList;
     private IOnItemClickCustomListner iOnItemClickCustomListner;
 
-    public WorkHistoryAdapter(Context context, ArrayList<WorkHistoryModel> list, IOnItemClickCustomListner listner) {
+    public WorkHistoryAdapter(Context context, ArrayList<WorkEducationModel> list, IOnItemClickCustomListner listner) {
         this.context = context;
         this.workHistoryList = list;
         iOnItemClickCustomListner = listner;

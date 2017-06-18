@@ -100,5 +100,21 @@
     <string name="linkedin">https://pk.linkedin.com/in/rohail-ahmad-52432889</string>
     <string name="location">Poznan, Poland</string>
     <string name="contact_details">Contact Details</string>
+    <string name="intent_serializable">Serializable</string>
+    <string name="put">Poznan University of Technology</string>
+    <string name="poznan_title">2017-Continue  Poznan, Poland</string>
+    <string name="degree_title">MS (Computing) - Software Engineering</string>
+    <string name="ucp_title">University of Central Punjab</string>
+    <string name="lhr_title">2011-2015  Lahore, Pakistan</string>
+    <string name="bscs_title">BS (CS) - Computer Science</string>
+    <string name="pgc_title">Punjab College of Science</string>
+    <string name="fsd_title">2008-2010  Faisalabad, Pakistan</string>
+    <string name="fsc">F.Sc. - Pre-Engineering</string>
+    <string name="sps_title">Sheri Public School</string>
+    <string name="fsd_school_title">2008  Faisalabad, Pakistan</string>
+    <string name="matric_title">Matriculation - Science (Biology)</string>
+    <string name="intent_boolean">boolean_intent</string>
+    <string name="work_history">Work History</string>
+    <string name="intent_string">string_intent</string>
 
 </resources>

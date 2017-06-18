@@ -21,6 +21,7 @@ import com.profile.rohail.rohailprofile.R;
 import com.profile.rohail.rohailprofile.adapters.ProfileAdapter;
 import com.profile.rohail.rohailprofile.interfaces.IOnItemClickCustomListner;
 import com.profile.rohail.rohailprofile.models.ProfileModel;
+import com.profile.rohail.rohailprofile.models.WorkEducationModel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -94,13 +95,10 @@ public class ProfileActivity extends AppCompatActivity implements IOnItemClickCu
                 newActivity(SummaryActivity.class, bundle);
                 break;
             case 3:
-                newActivity(WorkHistoryActivity.class, null);
+                setWorkHistoryData();
                 break;
             case 4:
-                bundle = new Bundle();
-                bundle.putString(getString(R.string.intent_title), getString(R.string.education_title));
-                bundle.putString(getString(R.string.intent_description), getString(R.string.education_description));
-                newActivity(SummaryActivity.class, bundle);
+                setEducationData();
                 break;
             case 5:
                 bundle = new Bundle();
@@ -126,6 +124,68 @@ public class ProfileActivity extends AppCompatActivity implements IOnItemClickCu
 
     }
 
+    private void setEducationData() {
+
+        ArrayList<WorkEducationModel> educationList = new ArrayList<>();
+
+        //Post graduate
+        WorkEducationModel workEducationModel = new WorkEducationModel();
+        workEducationModel.setTitle(getString(R.string.put));
+        workEducationModel.setLocationDate(getString(R.string.poznan_title));
+        workEducationModel.setDescription(getString(R.string.degree_title));
+        workEducationModel.setIcon(R.drawable.edu_icon);
+        educationList.add(workEducationModel);
+
+        //graduate
+        workEducationModel = new WorkEducationModel();
+        workEducationModel.setTitle(getString(R.string.ucp_title));
+        workEducationModel.setLocationDate(getString(R.string.lhr_title));
+        workEducationModel.setDescription(getString(R.string.bscs_title));
+        workEducationModel.setIcon(R.drawable.edu_icon);
+        educationList.add(workEducationModel);
+
+        //college
+        workEducationModel = new WorkEducationModel();
+        workEducationModel.setTitle(getString(R.string.pgc_title));
+        workEducationModel.setLocationDate(getString(R.string.fsd_title));
+        workEducationModel.setDescription(getString(R.string.fsc));
+        workEducationModel.setIcon(R.drawable.edu_icon);
+        educationList.add(workEducationModel);
+
+        //school
+        workEducationModel = new WorkEducationModel();
+        workEducationModel.setTitle(getString(R.string.sps_title));
+        workEducationModel.setLocationDate(getString(R.string.fsd_school_title));
+        workEducationModel.setDescription(getString(R.string.matric_title));
+        workEducationModel.setIcon(R.drawable.edu_icon);
+        educationList.add(workEducationModel);
+
+        Bundle bundle = new Bundle();
+        bundle.putSerializable(getString(R.string.intent_serializable), educationList);
+        bundle.putBoolean(getString(R.string.intent_boolean), false);
+        bundle.putString(getString(R.string.intent_string), getString(R.string.education_title));
+        newActivity(WorkHistoryActivity.class, bundle);
+
+    }
+
+    private void setWorkHistoryData() {
+
+        ArrayList<WorkEducationModel> workHistoryList = new ArrayList<>();
+
+        WorkEducationModel workEducationModel = new WorkEducationModel();
+        workEducationModel.setTitle(getString(R.string.inov8_title));
+        workEducationModel.setLocationDate(getString(R.string.inov8_location_date));
+        workEducationModel.setDescription(getString(R.string.software_title));
+        workEducationModel.setIcon(R.drawable.inov);
+
+        workHistoryList.add(workEducationModel);
+        Bundle bundle = new Bundle();
+        bundle.putSerializable(getString(R.string.intent_serializable), workHistoryList);
+        bundle.putBoolean(getString(R.string.intent_boolean), true);
+        bundle.putString(getString(R.string.intent_string), getString(R.string.work_history));
+        newActivity(WorkHistoryActivity.class, bundle);
+    }
+
     private void newActivity(Class newClass, Bundle bundle) {
         Intent intent = new Intent(ProfileActivity.this, newClass);
         if (bundle != null) {
@@ -136,9 +196,13 @@ public class ProfileActivity extends AppCompatActivity implements IOnItemClickCu
 
 
     private void openGoogleMap() {
+
+        // Espeo Software lat and lng location
         String uri = String.format(Locale.ENGLISH, "http://maps.google.com/maps?daddr=%s,%s (%s)",
                 "52.408753", "16.934309", "Espeo Software");
         Intent mapsIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+
+        //open google maps
         mapsIntent.setClassName("com.google.android.apps.maps",
                 "com.google.android.maps.MapsActivity");
 

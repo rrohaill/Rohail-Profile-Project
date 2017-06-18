@@ -1,17 +1,19 @@
 package com.profile.rohail.rohailprofile.models;
 
+import java.io.Serializable;
+
 /**
  * Created by Rohail on 6/17/2017.
  */
 
-public class WorkHistoryModel {
+public class WorkEducationModel implements Serializable {
 
     private String description;
     private String title;
     private String locationDate;
     private Integer icon;
 
-    public WorkHistoryModel() {
+    public WorkEducationModel() {
     }
 
     public String getLocationDate() {
@@ -48,7 +50,7 @@ public class WorkHistoryModel {
 
     @Override
     public String toString() {
-        return "WorkHistoryModel{" +
+        return "WorkEducationModel{" +
                 "description='" + description + '\'' +
                 ", title='" + title + '\'' +
                 ", locationDate='" + locationDate + '\'' +
