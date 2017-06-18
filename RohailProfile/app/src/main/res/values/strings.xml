@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Rohail Profile</string>
+    <string name="title_name">Rohail Ahmad</string>
+    <string name="title_job">Software Engineer</string>
+    <string name="profile_summary_title">Profile Summary</string>
+    <string name="profile_summary_text">•	Mobile banking &amp; Branch-less banking payment solutions for various banks.
+\n•	Experience of handling more than one project at a time and work in pressure.
+\n•	Self-motivated graduate with well-developed project management and IT skills combined with a flexible attitude to work.
+\n•	Appreciated from CEO for getting best branchless banking idea award on Mobile commerce conference 2015.
+\n•	Event management – Managed all company’s events, Global flowers day (Volunteer work).
+\n•	A critical thinker with strong analytical skills
+\n•	Strong team-player skills developed through work in senior design project and in career projects.
+\n•	Good organizational skills developed in a variety of deadline orientated situations.
+\n•	Get on well with people at all levels, easily making good working relationships.
+\n•	Working with Mastercard standards.
+\n•	Seek out new responsibilities irrespective of reward and recognition.
+</string>
+
+    <string name="skills_summary_text">•	Mobile Financial Services (MFS) / Branchless banking, Mobile banking
+\n•	Payment Solutions
+\n•	Mastercard QR code
+\n•	Android Studio / Eclipse
+\n•	Scrum
+\n•	XML / JSON parsing
+\n•	RESTful APIs / Web services
+\n•	Subversion (SVN)
+\n•	Research and development
+\n•	Material Design
+\n•	3rd party APIs/Integrations:
+\n\to	Retrofit, BookMe, Telenor EasyPay, Bluetooth printer, Visa/MasterCard card reader, Finger print, Google maps, Push notifications (GCM &amp; FCM), Social media (Facebook, Twitter, LinkedIn, Google+), NFC (sticker / chip card), Etc.
+</string>
+    <string name="intent_title">title_intent</string>
+    <string name="intent_description">description_intent</string>
+    <string name="skills_summary_title">Skills Summary</string>
+    <string name="inov8_title">Inov8 Limited</string>
+    <string name="inov8_location_date">Lahore|Pakistan     May 2015–April 2017</string>
+    <string name="inov8_description">•	Used native Java to develop state-of-the-art mobile applications for Android.
+\n•	Involved at every project phrase, from concept creation to app store deployment.
+\n•	Responsible for general maintenance of application library and debugging.
+\n•	Code review session with mobile development team for better productivity.
+\n•	Tested applications on device simulators and actual devices to fine-tune products.
+\n•	Got A grade in all quarterly performance evaluations.
+\n•	Training sessions:
+\n•	Mobile application development.
+\n•	OWASP (Open Web Application Security Project) for The Payment Card Industry Data Security Standard (PCI DSS) clearance and to update employees with best coding practices to prevent Web Application Security Vulnerabilities.
+\n•	DevOps – aim of this training is to update employees with DevOps Automation Tools and Techniques.
+</string>
+    <string name="software_title">Software Engineer | Android Developer | Mobile Engineering</string>
+    <string name="education_title">Education</string>
+    <string name="education_description">•	2017 – Continue, Poznan University of Technology, Poznan, Poland.
+\nDegree: MS (Computing) - Software Engineering.
+
+\n\n•	2010 – 2015, University of Central Punjab, Lahore, Pakistan.
+\nDegree: BS (CS) - Computer Science.
+
+\n\n•	2008 – 2010, Punjab College, Faisalabad, Pakistan.
+\nF.Sc. - Pre-Engineering
+
+\n\n•	2008, Sheri Public School, Faisalabad, Pakistan.
+\nMatriculation - Science (Biology)
+</string>
+    <string name="projects_title">Projects</string>
+    <string name="projects_description"><b>Senior Design Project</b>
+\n<b>Research Title:</b> Technology in Education
+\n<b>Development Title:</b> Learning Group Theory Visually
+\n(Resulted in Desktop &amp; Android Application)
+\n<b>Description:</b> Developed a desktop and an android application “Learning Group Theory Visually”. Group theory is a mathematics course. It is a teaching tool which uses automata techniques and visually represents the abstract concepts of group theory through graphs.
+
+
+\n\n\n<b>Career Projects</b>
+\n\n•	Meezan Bank (Mobile banking) – Live
+\n<b>Link:</b> https://play.google.com/store/apps/details?id=invo8.meezan.mb
+
+\n\n•	Soneri Bank (Mobile banking) – Live
+\n<b>Link:</b> https://play.google.com/store/apps/details?id=com.inov8.sbl.mfs
+
+\n\n•	FonePay (Consumer App) Powered by Mastercard
+\n<b>Link:</b> https://play.google.com/store/apps/details?id=com.inov8.fonepayconsumer
+
+\n\n•	FonePay (Merchant App) Powered by Mastercard
+\n\n•	JS Bank (Branchless-Banking) – Pilot phase
+\n\n•	ABL FonePay – Soft launch
+\n\n•	AllPay – UAT
+\n\n•	BOP Branch &amp; ATM Locator
+\n\n•	Demo Applications (Branchless banking, Mobile banking).
+
+\n\n<b>Features:</b>
+\n•	Mini Statement, Funds Transfer (Inter &amp; Intra-bank), Pay utility bills, Retail payment, Online payment, Block/Unblock debit cards, Transaction details, Mobile top-ups, Balance inquiry, Social media integration, Cardwalla, BookMe payments, Telenor-EasyPay payments, Social media, Google maps, Bluetooth printer, Visa/Mastercard Card Reader, Finger print scanner, NFC, Etc.
+</string>
+    <string name="interest_title">Interest</string>
+    <string name="interest_description">
+•	Computing, Traveling, Gymnasium, Badminton, Socialising with friends
+\n•	Blogging:
+\n  o	http://articleengineer.blogspot.com
+\n  o	https://rohailrealm.wordpress.com
+</string>
+
+    <string name="email_address">rohailonline1@gmail.com</string>
+    <string name="phone_number">+48729221614</string>
+    <string name="linkedin">https://pk.linkedin.com/in/rohail-ahmad-52432889</string>
+    <string name="location">Poznan, Poland</string>
+    <string name="contact_details">Contact Details</string>
+
+</resources>

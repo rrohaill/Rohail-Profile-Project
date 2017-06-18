@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="profile_icon_width">62dp</dimen>
+    <dimen name="profile_icon_height">67dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="text_size_normal">18sp</dimen>
+    <dimen name="text_size_large">30sp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+</resources>
